@@ -27,14 +27,6 @@ p {
   font-size: 14px;
 }
 
-.main-nav a {
-  font-size: 18px;
-  color: white;
-  text-align: center;
-  padding: 50px;
-  text-decoration: none;
-}
-
 header {
   background-image: url(../images/the-flatiron-building.png);
   background-size: cover;
@@ -42,7 +34,14 @@ header {
   position: relative;
 }
 
-.main-nav {
+footer {
+  overflow: hidden;
+  background-color: dimgray;
+}
+
+/* MAIN NAVIGATION */
+
+#main-nav {
   list-style-type: none;
   margin: 0;
   padding: 10px 0px 10px 0px;
@@ -51,13 +50,49 @@ header {
   background: rgba(0, 0, 0, .2);
 }
 
-.main-nav li {
+#main-nav li {
   display: inline;
   border-right: 1px solid #fff;
 }
 
-.main-nav li:last-child {
+#main-nav li:last-child {
   border-right: none;
+}
+
+#main-nav a {
+  font-size: 18px;
+  color: white;
+  padding: 50px;
+  text-decoration: none;
+}
+
+/* FOOTER NAVIGATION */
+
+.footer-nav-container {
+  float: right;
+}
+
+.footer-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0px 10px 0px;
+  overflow: hidden;
+}
+
+.footer-nav li {
+  display: inline;
+  border-right: 1px solid #fff;
+}
+
+.footer-nav li:last-child {
+  border-right: none;
+}
+
+.footer-nav a {
+  font-size: 14px;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
 }
 
 .process-step {
@@ -74,12 +109,24 @@ header {
   clear: both;
   color: white;
   padding: 10px 0px;
+  margin-top: 0px;
   background-image: url(../images/the-flatiron-building.png);
   background-size: cover;
-
 }
 
 #contact a {
   font-size: 14px;
   color: black;
+}
+
+#process {
+  overflow: hidden;
+}
+
+.copyright {
+  color: white;
+  text-align: left;
+  padding: 10px;
+  width: 40%;
+  float: left;
 }
