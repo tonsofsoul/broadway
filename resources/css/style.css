@@ -27,9 +27,8 @@ p {
   font-size: 14px;
 }
 
-a {
+.main-nav a {
   font-size: 18px;
-  color: blue;
   color: white;
   text-align: center;
   padding: 50px;
@@ -69,4 +68,18 @@ header {
 
 .process-step img {
   height: 70px;
+}
+
+.designed h3 {
+  clear: both;
+  color: white;
+  padding: 10px 0px;
+  background-image: url(../images/the-flatiron-building.png);
+  background-size: cover;
+
+}
+
+#contact a {
+  font-size: 14px;
+  color: black;
 }
