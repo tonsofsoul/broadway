@@ -15,6 +15,16 @@ h1 {
 
 h2 {
   font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
 }
 
 a {
@@ -33,10 +43,6 @@ header {
   position: relative;
 }
 
-svg {
-  fill: grey;
-}
-
 .main-nav {
   list-style-type: none;
   margin: 0;
@@ -53,4 +59,14 @@ svg {
 
 .main-nav li:last-child {
   border-right: none;
+}
+
+.process-step {
+  width: 33%;
+  margin: 10px auto;
+  float:left;
+}
+
+.process-step img {
+  height: 70px;
 }
